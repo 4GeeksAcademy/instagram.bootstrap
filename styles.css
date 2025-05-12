@@ -15,13 +15,12 @@ body {
 }
 
 
-
 .post {
     border: 1px solid #dbdbdb;
     background-color: azure;
     border-radius: 3px;
     width: 500px;
-  
+    position: relative;  
 }
 
 .post-header {
@@ -33,7 +32,6 @@ body {
 }
 
 
-
 .icons-izq i {
     margin-right: 12px;
     font-size: 22px;
@@ -43,6 +41,8 @@ body {
 .icons-der i {
     font-size: 22px;
     cursor: pointer;
+    position: absolute;
+    text-align:right; 
 }
 
 .likes {
